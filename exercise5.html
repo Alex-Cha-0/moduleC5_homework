@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise5</title>
+    <style>
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <link rel="stylesheet" href="/style/exercise4.css">
+</head>
+<body>
+<div class="container">
+    <h1>Excercise 5</h1>
+    <div class="inpt">
+        <input type="number" class="form__field" placeholder="Номер страницы" name="page_number" id='page_number'
+               required/>
+        <label for="page_number" class="form__label">Номер страницы</label>
+    </div>
+
+    <div class="inpt">
+        <input type="number" class="form__field" placeholder="Лимит" name="limit" id='limit' required/>
+        <label for="limit" class="form__label">Лимит</label>
+    </div>
+    <br>
+    <button class="btn">Запрос</button>
+    <div class="images"></div>
+</div>
+<script src="exercise5.js"></script>
+</body>
+</html>
